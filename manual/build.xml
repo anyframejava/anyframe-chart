@@ -14,7 +14,7 @@
 	<property name="subv.password" value="${env.SVN_PASSWORD}" />
 	
 	<property name="book.name" value="chart" />
-	<property name="version" value="1.1.0"/>	
+	<property name="version" value="1.1.1-SNAPSHOT"/>	
 	<property name="service.home" value="E:/workspace/service/${book.name}/${version}" />
 	<property name="service.name" value="anyframe-chart" />
 
@@ -283,6 +283,6 @@
 	<target name="all" depends="clean, copy, build-html, build-chunks, build-pdf" />
 
 	<!-- target for CI build -->
-	<target name="all-CI" depends="all, deploy-manual, checkout-service, javadoc"/>
+	<target name="all-CI" depends="all, deploy-manual, javadoc"/>
 	
 </project>
