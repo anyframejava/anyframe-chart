@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<anyframe>
+	<pjtname>anyframe-chart-pi</pjtname>
+	<package>org.anyframe.plugin</package>
+	<pjthome>\Users\user\workspace\anyframe-chart-pi</pjthome>
+	
+	<path>
+		<template>\Users\user\workspace\anyframe-chart-pi\.settings\anyframe\templates</template>
+		<jdbcdrivers>\Users\user\workspace\anyframe-chart-pi\.settings\anyframe</jdbcdrivers>
+		<databases>\Users\user\workspace\anyframe-chart-pi\.settings\anyframe</databases>
+	</path>
+</anyframe>
