@@ -10,12 +10,6 @@
 		      <imageobject>
 		        <imagedata align="center"  fileref="../image/chart/chart_architecture.jpg" />
 		      </imageobject>
-		      <textobject>
-		      	<phrase>
-		      		FusionChart 아키텍처를 나타내는 그림으로써, Java 코드를 기반으로 정의된 Chart Model을 XML 형태로 
-		      		Marshalling/Unmarshalling하여 어플리케이션 내에 표현 가능함을 나타냄
-		      	</phrase>
-		      </textobject>
 		    </mediaobject>
 		</para>
 	</section>
@@ -94,7 +88,7 @@ public String getMemoryUsageChart(ModelMap map) throws Exception {
     set2.setColor("F6BD0F");
     set2.setIsSliced(1);
 
-    <![CDATA[List<Pie2dSet> sets = new ArrayList<Pie2dSet>()]]>;
+    List sets = new ArrayList();
     sets.add(set1);
     sets.add(set2);
 
