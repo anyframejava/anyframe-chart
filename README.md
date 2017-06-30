@@ -1,4 +1,4 @@
-Anyframe Java Cache Plugin
+Anyframe Java Chart Plugin
 ====
 
 ### 매뉴얼(1.1.0)
